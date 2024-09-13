@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import APIClient from "../services/api-client";
+import APIClient, { FetchingResponse } from "../services/api-client";
 import platforms from "../data/platforms";
 
 export interface Platform {
@@ -18,6 +18,8 @@ const usePlatforms = () =>
     initialData: {
       count: platforms.results.length,
       results: platforms.results,
+      next: null,
+      prev: null,
     },
   });
 
