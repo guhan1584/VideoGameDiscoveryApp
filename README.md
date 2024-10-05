@@ -13,15 +13,17 @@ https://github.com/user-attachments/assets/7382de7a-eec1-482a-8352-10bac3788ceb
 
 ## Overview
 
-The **Video Game Discovery App** fetches game data using the RAWG API, allowing users to explore different genres and platforms. The app uses React Query for efficient data fetching, caching, and background synchronization. It supports features such as infinite scrolling and filtering by genre, platform, and search terms.
+The **Video Game Discovery App** fetches game data using the RAWG API, allowing users to explore different genres and platforms. The app uses React Query for efficient data fetching, caching, and background synchronization. It supports features such as infinite scrolling and filtering by genre, platform, and search terms. The app also utilizes Zustand for state management, React Router for navigation, and has been deployed on Vercel.
 
 ## Features
 
-- **Game Search by Genre and Platform:** Users can filter games based on selected genres and platforms for personalized discovery.
-- **Infinite Scrolling:** Games are loaded as the user scrolls, providing a seamless experience.
-- **Game Details:** Each game displays basic information such as title, genre, platform, and more.
-- **Debounced Search:** The app optimizes search performance by debouncing user input to reduce unnecessary API calls.
-- **Error Handling:** Graceful error handling ensures that API issues or missing data are handled appropriately.
+- **Game Search by Genre and Platform**: Users can filter games based on selected genres and platforms for personalized discovery.
+- **Infinite Scrolling**: Games are loaded as the user scrolls, providing a seamless experience.
+- **Game Details**: Each game displays basic information such as title, genre, platform, and more.
+- **Debounced Search**: The app optimizes search performance by debouncing user input to reduce unnecessary API calls.
+- **Error Handling**: Graceful error handling ensures that API issues or missing data are handled appropriately.
+- **Reusable Components**: Built reusable components for better maintainability and scalability.
+- **Routing**: Added React Router for smooth navigation across different app sections.
 
 ## API Used
 
@@ -31,11 +33,14 @@ The app integrates with the **RAWG Video Games Database API**, which provides co
 
 ## Technologies Used
 
-- **React**
-- **TypeScript**
-- **React Query**
-- **Axios**
-- **Chakra UI** (for styling)
+- React
+- TypeScript
+- React Query
+- Axios
+- Chakra UI (for styling)
+- Zustand (for state management)
+- React Router (for navigation)
+- Vercel (for deployment)
 
 ## Getting Started
 
@@ -114,7 +119,7 @@ REACT_APP_RAWG_API_KEY=your_rawg_api_key_here
 
 ## Conclusion
 
-The **Video Game Discovery App** is a React-based web application aimed at helping users explore games across multiple genres and platforms. Using React Query, infinite scrolling, and optimized search, the app ensures a smooth user experience.
+The **Video Game Discovery App**  is a React-based web application aimed at helping users explore games across multiple genres and platforms. Using React Query, infinite scrolling, Zustand for state management, and optimized search, the app ensures a smooth user experience.
 
 ---
 
