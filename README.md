@@ -5,7 +5,11 @@
 
 ## Preview
 
-![Game Discovery Preview](./game-discovery-preview.gif)
+
+
+https://github.com/user-attachments/assets/7382de7a-eec1-482a-8352-10bac3788ceb
+
+
 
 ## Overview
 
